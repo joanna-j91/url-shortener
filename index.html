@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <form>
+
+        <h1>URL Shortener</h1>
+
+        <label for="input_link">Original Link:</label>
+        <input type="text" id="input_link" name="unit">
+        
+
+        <br>
+
+        <button type="button" onclick="convert()">Shorten!</button>
+
+        <p id="shortened_link"></p>
+
+    </form>
     
+
+    <script src="index.js"></script>
 </body>
 </html>
