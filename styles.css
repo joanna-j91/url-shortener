@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 220, 220);
+}
+
+h1{
+    color: rgb(93, 93, 230);
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.326);
+}
+
+#input_link{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgba(0, 0, 0, 0.651);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(211, 108, 108);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.326);
+    background-color: rgb(190, 82, 82);
+}
+
+#shortened_link{
+    font-size: 1.75em;
+    font-weight: bold;
+}
